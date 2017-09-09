@@ -1,4 +1,4 @@
-const teleapi = require('teleapi');
+import teleapi from 'teleapi';
 
 module.exports = class Bot {
   constructor(token, chats, pollingRatio) {
