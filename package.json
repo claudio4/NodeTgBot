@@ -1,0 +1,19 @@
+{
+  "name": "nodetgbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "author": "Claudio4 <me@claudio4.com> (www.claudio4.com)",
+  "license": "MIT",
+  "dependencies": {
+    "teleapi": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
