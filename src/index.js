@@ -1,9 +1,8 @@
 import teleapi from 'teleapi';
 
 module.exports = class Bot {
-  constructor(token, chats, pollingRatio) {
+  constructor(token, pollingRatio) {
     this.api = teleapi(token);
-    this.chats = chats;
     this.pollingRatio = pollingRatio;
     this.offset = null;
     this.commands = [];
