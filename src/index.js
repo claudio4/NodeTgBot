@@ -9,7 +9,7 @@ module.exports = class Bot {
   }
   addCommand(regex, handler) {
     this.commands[this.commands.length] = (update) => {
-      if (regex.test(update.text)) {
+      if (regex.test(update.message.text)) {
         handler(update.message, this);
       }
     };
